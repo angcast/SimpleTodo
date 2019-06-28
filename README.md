@@ -35,7 +35,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-A challenge I faced while building this application was connecting the implementation to the design and understanding that connection. It was interesting how the front-end and back-end "communicated".
+A challenge I faced while building this application was connecting the implementation to the design and understanding that connection. It was interesting how the front-end and back-end "communicated". I tried to challenege myself further by creating a drop down menu with different options the user can click.
 
 ## License
 
