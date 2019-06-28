@@ -7,7 +7,7 @@ Simple Todo is an android app that allows building a todo list and basic todo it
 
 Submitted by: Angelica Castillejos
 
-Time spent: 4 hours spent in total
+Time spent: 5 hours spent in total
 
 ## User Stories
 
@@ -19,11 +19,11 @@ The following **required** functionality is completed:
 
 The following **stretch** features are implemented:
 
-* [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
+* [X] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] Has a drop- down menu that includes different options a user can click. 
 
 ## Video Walkthrough
 
@@ -35,7 +35,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-A challenge I faced while building this application was connecting the implementation to the design and understanding that connection. It was interesting how the front-end and back-end "communicated".
+A challenge I faced while building this application was connecting the implementation to the design and understanding that connection. It was interesting how the front-end and back-end "communicated". I tried to challenege myself further by creating a drop down menu with different options the user can click.
 
 ## License
 
