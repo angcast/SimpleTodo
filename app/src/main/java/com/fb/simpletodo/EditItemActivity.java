@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import static com.fb.simpletodo.MainActivity.ITEM_TEXT;
 import static com.fb.simpletodo.MainActivity.ITEM_POSITION;
 
+
 public class EditItemActivity extends AppCompatActivity {
 
     // track edit text
@@ -29,7 +30,9 @@ public class EditItemActivity extends AppCompatActivity {
         position = getIntent().getIntExtra(ITEM_POSITION,0);
         //update the title bar of the activitu
         getSupportActionBar().setTitle("Edit Item");
+
     }
+
 
     // handler for save button
     public void onSaveItem(View v){
@@ -44,5 +47,7 @@ public class EditItemActivity extends AppCompatActivity {
         // close activity and redirect to main
         finish();
     }
+
+
 
 }

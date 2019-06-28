@@ -32,12 +32,10 @@ public class MainActivity extends AppCompatActivity {
     public final static String ITEM_TEXT = "itemText";
     public final static String ITEM_POSITION = "itemPosition";
 
-
     // field declarations
     ArrayList<String> items;
     ArrayAdapter<String> itemsAdapter;
     ListView lvItems;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 
 
     @Override
@@ -149,6 +148,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+
     private File getDataFile(){
         return new File(getFilesDir(),"todo.txt");
     }
@@ -165,6 +166,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    
     private void writeItems(){
         try{
             FileUtils.writeLines(getDataFile(), items);
